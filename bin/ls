@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require File.expand_path('../../lib/ls', __FILE__)
+
+Ls.new(".").to_s
